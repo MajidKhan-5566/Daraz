@@ -1,0 +1,1017 @@
+/* Navigation */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    background-color: whitesmoke;
+}
+.ribbon
+{
+    display: flex;
+    height: 25px;
+    width: 100%;
+    background-color: orangered;
+    justify-content: left;
+}
+.ribbon a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 20px;
+    justify-content: center;
+    margin-top: 5px;
+}
+.ribbon1
+{
+    margin-left: 100px;
+    margin-top: 5px;
+    background-color: orangered;
+}
+.ribbon a:hover
+{
+    color: rgb(59, 71, 71);
+}
+.nav
+{
+    height: 80px;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+}
+.logo
+{
+    height: 75px;
+    width: 14%;
+    margin-left: 100px;
+}
+.logo img
+{
+    width: 100%;
+    height: 100%;
+}
+.main
+{
+    height: 30px;
+    width: 1050px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+input
+{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 625px;
+}
+.icon-search
+{
+    color: orangered;
+    font-size: 16px;
+    margin-top: 4px;
+}
+.search
+{
+    display: inline-block;
+    height: 100px;
+    width: 50%;
+    margin-left: 15px;
+    color: white;
+}
+.searching
+{
+    background-color: orangered;
+    height: 80px;
+}
+.search ul
+{
+    background-color: orangered;
+}
+.search ul button
+{
+    background-color: orangered;
+}
+.search ul button span
+{
+    background-color: transparent;
+}
+.search button
+{
+    background-color: orangered;
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 15px;
+    background-color: transparent;
+    border: transparent;
+    font-weight: bold;
+}
+.search i:hover
+{
+    color: aqua;
+}
+.t
+{
+    height: 35px;
+    width: 70px;
+    color: white;
+    /* background-color: orangered; */
+}
+.search button:hover
+{
+    background-color: gray;
+}
+
+/* grid section start here */
+.grid
+{
+    display: grid;
+    grid-template-columns: 100px 150px 250px 330px 300px;
+    grid-template-rows: 100px 250px 60px 150px 60px 50px 290px  70px 300px 60px 290px 290px 290px 290px 50px 90px;
+    border: 2px solid red;
+    border: transparent;
+    grid-gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.col
+{
+    border: 1px solid black;
+    border: transparent;
+    background-color: whitesmoke;
+}
+.col1
+{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    border-radius: 10px;
+    background-color: white;
+}
+.list
+{
+    list-style: none;
+    margin-top: 10px;
+    background-color: white;
+}
+.list li:hover
+{
+    color: red;
+    background-color: rgba(233, 233, 210, 0.733);
+}
+.li
+{
+    padding: 4px 0px;
+    margin-left: 5px;
+    background-color: white;
+}
+.col2
+{
+    grid-column: 3/6;
+    grid-row: 1/3;
+}
+.slider img
+{
+    height: 80%;
+    width: 50%;
+}
+.slider
+{
+    background-image: url(../image/D1.jpg);
+    height: 100%;
+    background-size: contain;
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide
+{
+    0%{background-image: url(../image/D1.jpg);}
+    25%{background-image: url(../image/D2.png);}
+    50%{background-image: url(../image/D3.jpg);}
+    75%{background-image: url(../image/D4.jpg);}
+    100%{background-image: url(../image/D5.webp);}
+}
+.col3
+{
+    grid-column: 1/6;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.child
+{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: red;
+    padding: 7px;
+    list-style: none;
+}
+.child li
+{
+    padding: 0px 32px;
+    display: inline-block;
+}
+.child li:hover
+{
+    background-color: grey;
+}
+.child1
+{
+    background-image: url(../image/safe.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+.child2
+{
+    background-image: url(../image/Nationwide.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+.child3
+{
+    background-image: url(../image/free\ &\ easy.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+.child4
+{
+    background-image: url(../image/Best\ price.png);
+    background-repeat: no-repeat;
+    background-position: 5px; 
+}
+.child5
+{
+    background-image: url(../image/Authentic.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+.child6
+{
+    background-image: url(../image/Daraz\ Verified.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+.col4
+{
+    display: flex;
+    margin-top: 5px;
+    border-radius: 15px;
+    grid-column: 1/6;
+    background-color: whitesmoke;
+}
+.c
+{
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    list-style: none;
+    border: transparent;
+    background-color: white;
+}
+.d
+{
+    margin-top: 105px;
+    background-color: white;
+}
+.c1
+{
+    background-image: url(../image/free\ delivery.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
+    background-position: 10px 1px;
+    margin-top: 5px;
+    height: 125px;
+    width: 142px;
+}
+.c2
+{
+    background-image: url(../image/mart.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
+    background-position: 10px 1px;
+    margin-top: 5px;
+    height: 125px;
+    width: 142px;
+}
+.c3
+{
+    background-image: url(../image/fashion.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
+    background-position: 10px 1px;
+    margin-top: 5px;
+    height: 125px;
+    width: 142px;
+}
+.c4
+{
+    background-image: url(../image/beauty.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
+    background-position: 10px 1px;
+    margin-top: 5px;
+    height: 125px;
+    width: 142px;
+}
+.c5
+{
+    background-image: url(../image/home\ \ &\ decore.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
+    background-position: 10px 1px;
+    margin-top: 5px;
+    height: 125px;
+    width: 142px;
+}
+.c6
+{
+    background-image: url(../image/daraz\ like\ new.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
+    background-position: 10px 1px;
+    margin-top: 5px;
+    height: 125px;
+    width: 142px;
+}
+.c7
+{
+    background-image: url(../image/flash\ sale.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
+    background-position: 10px 1px;
+    margin-top: 5px;
+    height: 125px;
+    width: 142px;
+}
+.c8
+{
+    background-image: url(../image/Nwe\ on\ Daraz.png);
+    background-repeat: no-repeat;
+    background-size: 105px;
+    background-position: 10px 1px;
+    margin-top: 5px;
+    height: 125px;
+    width: 142px;
+}
+.c li:hover
+{
+    color: red;
+}
+.c:hover
+{
+    box-shadow: gray 4px 4px 5px;
+    border-color: black ;
+    scale: 1.05;
+}
+.col5
+{
+    grid-column: 1/6;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.col6
+{
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 10% 10px 63%;
+    grid-template-rows: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+.p1
+{
+    color: red;
+    padding: 15px;
+    background-color: white;
+}
+.p2
+{
+    padding: 7px;
+    height: 20px;
+    width: 1000px;
+    margin-top: 1px;
+    margin-left: 123%;
+    background-color: white;
+}
+.p2 button
+{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-color: orangered;
+    border: transparent;
+    color: white;
+    font-size: 17px;
+}
+.p3
+{
+    color: red;
+    padding: 7px;
+    border: 2px solid red;
+    height: 40px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 123%;
+    text-decoration: none;
+    background-color: white;
+}
+.sh a
+{
+    color: red;
+}
+.p3 a:hover
+{
+    color: red;
+}
+
+
+.col7
+{
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 187px 187px 187px 187px 187px 187px ;
+    grid-template-rows: 290px ;
+    grid-gap: 5px;
+    /* background-color: white; */
+}
+.a1
+{
+    border: 1px solid black;
+    border: transparent;
+    list-style: none;
+    background-color: white;
+}
+.b1
+{
+    margin-top: 105%;
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: white;
+}
+.b2
+{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: white;
+}
+.a2
+{
+    background-image: url(../image/Wirless\ Bluetooth\ Earbuds.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.a3
+{
+    background-image: url(../image/steel\ round\ lever.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.a4
+{
+    background-image: url(../image/ultra\ smart\ watch.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.a5
+{
+    background-image: url(../image/smartwatches12.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.a6
+{
+    background-image: url(../image/Rimengton.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.a7
+{
+    background-image: url(../image/high\ stocking\ women.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.a1:hover
+{
+    box-shadow: gray 4px 4px 5px;
+    border-color: black ;
+    scale: 1.0;
+}
+.rs
+{
+    margin-left: 5px;
+    background-color: white;
+}
+del
+{
+    background-color: white;
+}
+.col8
+{
+    grid-column: 1/6;
+    border-radius: 10px;
+}
+.cata
+{
+    list-style: none;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.cata 
+{
+    background-color: whitesmoke;
+}
+.col9
+{
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 143px 143px 143px 143px 143px 143px 143px 143px;
+    grid-template-rows: 145px 145px;
+    justify-content: center;
+    text-align: center;
+}
+.category li
+{
+    border-left: transparent;
+}
+.category
+{
+    border: 1px solid black;
+    list-style: none;
+    background-color: white;
+}
+.cat
+{
+    margin-top: 100px;
+    background-color: white;
+}
+.categ
+{
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 100px 50px;
+    justify-content: center;
+    background-color: white;
+}
+.cat1
+{
+    background-image: url(../image/dresses.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat2
+{
+    background-image: url(../image/Lamp\ Shades.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat3
+{
+    background-image: url(../image/Chandeliers.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat4
+{
+    background-image: url(../image/Socks\ &\ Tights.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat5
+{
+    background-image: url(../image/smart\ watch.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat6
+{
+    background-image: url(../image/subwoofer.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat7
+{
+    background-image: url(../image/picture\ hanger\ &\ hocks.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat8
+{
+    background-image: url(../image/shampo.png);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat9
+{
+    background-image: url(../image/wall\ charger.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat10
+{
+    background-image: url(../image/clips\,pins\ &\ tacks.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat11
+{
+    background-image: url(../image/Specialty\ kitchen\ tools.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat12
+{
+    background-image: url(../image/Bussiness.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat13
+{
+    background-image: url(../image/Art\ Easels.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat14
+{
+    background-image: url(../image/Gravity\ Water\ Dispenser.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat15
+{
+    background-image: url(../image/Fashion\ 00.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.cat16
+{
+    background-image: url(../image/Insecticide\ coil.jpg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+    border: transparent;
+}
+.categ:hover
+{
+    box-shadow: gray 4px 4px 5px;
+    border-color: black ;
+    scale: 1.05;
+}
+.col10
+{
+    grid-column: 1/6;
+}
+.foryou
+{
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.col11
+{
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 187px 187px 187px 187px 187px 187px ;
+    grid-template-rows: 290px ;
+    grid-gap: 5px;
+}
+.e1
+{
+    border: 1px solid black;
+    border: transparent;
+    list-style: none;
+    background-color: white;
+}
+.f1
+{
+    margin-top: 105%;
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: white;
+}
+.f2
+{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: white;
+}
+.e2
+{
+    background-image: url(../image/Milat\ insect\ killer.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.e3
+{
+    background-image: url(../image/Multipack\ of\ waterproof.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.e4
+{
+    background-image: url(../image/Asus\ ROG\ ALLY.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.e5
+{
+    background-image: url(../image/compatiblle\ for\ apple\ watch.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.e6
+{
+    background-image: url(../image/mini\ bicycle.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.e7
+{
+    background-image: url(../image/Wooden\ Wall\ Hanging.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.e1:hover
+{
+    box-shadow: gray 4px 4px 5px;
+    border-color: black ;
+    scale: 1.05;
+}
+.col12
+{
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 187px 187px 187px 187px 187px 187px ;
+    grid-template-rows: 290px ;
+    grid-gap: 5px;
+}
+.g1
+{
+    border: 1px solid black;
+    border: transparent;
+    list-style: none;
+    background-color: white;
+}
+.j1
+{
+    margin-top: 105%;
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: white;
+}
+.j2
+{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: white;
+}
+.g2
+{
+    background-image: url(../image/Casual\ fashion\ wrist\ watch.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.g3
+{
+    background-image: url(../image/hot\ shaper\ belt\ for\ women.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.g4
+{
+    background-image: url(../image/Customize\ rings\ with\ box.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.g5
+{
+    background-image: url(../image/summer\ Tracksuit\ top\ quality.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.g6
+{
+    background-image: url(../image/men\ shoes\ sneakers.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.g7
+{
+    background-image: url(../image/BB\ Bargain\ Bazzar\ clock.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.g1:hover
+{
+    box-shadow: gray 4px 4px 5px;
+    border-color: black ;
+    scale: 1.05;
+}
+.col13
+{
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 187px 187px 187px 187px 187px 187px ;
+    grid-template-rows: 290px ;
+    grid-gap: 5px;
+}
+.k1
+{
+    border: 1px solid black;
+    border: transparent;
+    list-style: none;
+    background-color: white;
+}
+.m1
+{
+    margin-top: 105%;
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: white;
+}
+.m2
+{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: white;
+}
+.k2
+{
+    background-image: url(../image/Showcase\ ring\ for\ girl.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.k3
+{
+    background-image: url(../image/customize\ nacklace\ \ name\ nacklace.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.k4
+{
+    background-image: url(../image/mister\ traders\ wooden\ wall\ art.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.k5
+{
+    background-image: url(../image/whitens\ facial\ kit\ with\ polisher.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.k6
+{
+    background-image: url(../image/chines\ style\ living\ room\ carpet.png);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.k7
+{
+    background-image: url(../image/luxury\ earphone\ case\ for\ airpods.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.k1:hover
+{
+    box-shadow: gray 4px 4px 5px;
+    border-color: black ;
+    scale: 1.05;
+}
+.col14
+{
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 187px 187px 187px 187px 187px 187px ;
+    grid-template-rows: 290px ;
+    grid-gap: 5px;
+}
+.n1
+{
+    border: 1px solid black;
+    border: transparent;
+    list-style: none;
+    background-color: white;
+}
+.o1
+{
+    margin-top: 105%;
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: white;
+}
+.o2
+{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: white;
+}
+.n2
+{
+    background-image: url(../image/microfuber\ duster.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.n3
+{
+    background-image: url(../image/stylish\ collection\ stiched.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.n4
+{
+    background-image: url(../image/lifestyle\ glory.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.n5
+{
+    background-image: url(../image/WANTER\ Makeup\ Brush.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.n6
+{
+    background-image: url(../image/letex\ elastic\ tube.webp);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.n7
+{
+    background-image: url(../image/Case\ for\ Apple\ Watch.jpg);
+    background-repeat: no-repeat;
+    background-size: 190px;
+}
+.n1:hover
+{
+    box-shadow: gray 4px 4px 5px;
+    border-color: black ;
+    scale: 1.05;
+}
+.col15
+{
+    grid-column: 1/6;
+    justify-content: center;
+    margin-top: 30px;
+}
+.load
+{
+    color: red;
+    border: 2px solid red;
+    height: 40px;
+    width: 35%;
+    margin-left: 35%;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    list-style: none;
+}
+.more
+{
+    color: red;
+    border: transparent;
+}
+.load li
+{
+    margin-top: 5px;
+}
+.load a:hover
+{
+    color: red;
+}
